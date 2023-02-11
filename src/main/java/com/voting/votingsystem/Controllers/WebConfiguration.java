@@ -16,8 +16,9 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class WebConfiguration {
     /**
      * note that  the @Autowired annotation in this case will be used to inject  this instance from the bean Container .
+     * note that the list urls in this case must start with  the / slash ..
      */
-    private static final String[] WHITE_LIST_URLS = {"/auth/login", "/mpesa"};
+    private static final String[] WHITE_LIST_URLS = {"/auth/login", "/mpesa","/auth/test"};
     @Autowired
     private AuthenticationProvider authenticationProvider;
     @Autowired

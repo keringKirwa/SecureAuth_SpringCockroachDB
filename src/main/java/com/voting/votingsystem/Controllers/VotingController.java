@@ -109,6 +109,11 @@ public class VotingController {
         }
 
     }
+    @GetMapping("/auth/test")
+    public String getTest(){
+        return "Test Successful ....";
+    }
+
 
 
 }

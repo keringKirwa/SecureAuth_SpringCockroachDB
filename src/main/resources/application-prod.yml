@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${{ PGUSER }}:${{ PGPASSWORD }}@${{ PGHOST }}:${{ PGPORT }}/${{ PGDATABASE }}
-    username: ${PGUSER}
-    password: ${PGPASSWORD}
+    url: jdbc:postgresql://containers-us-west-48.railway.app:7660/railway
+    username: postgres
+    password: 4f60DT9mdI0YZHllP2HU
     name: spring-blog
